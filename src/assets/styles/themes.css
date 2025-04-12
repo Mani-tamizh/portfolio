@@ -1,0 +1,29 @@
+/* Light Theme */
+:root {
+    --body-color: #fff;
+    --text-color: #000;
+    --primary-color: #00627d;
+  }
+  
+  /* Dark Theme */
+  body.dark-mode {
+    --body-color: #121212;
+    --text-color: #fff;
+    --title-color:#fff;
+    --primary-color: #82469c;
+    --container-color: #121212;
+    --shadow: 0px 5px 20px rgba(255, 255, 255, 0.1); /* Light, soft shadow on dark background */
+  }
+  
+  body {
+    background-color: var(--body-color);
+    color: var(--text-color);
+    transition: body-color 0.3s ease, color 0.3s ease;
+  }
+  
+  button {
+    background-color: var(--primary-color);
+    color: var(--text-color);
+    transition: body-color 0.3s ease, color 0.3s ease;
+  }
+  
