@@ -1,7 +1,6 @@
 {
   "homepage": "https://Mani-tamizh.github.io/portfolio/",
   "name": "portfolio",
-  "base": "portfolio",
   "private": true,
   "version": "0.0.0",
   "type": "module",
