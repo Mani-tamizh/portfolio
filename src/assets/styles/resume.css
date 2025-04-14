@@ -58,12 +58,12 @@
     }
   }
   @media screen and (max-width:576px) {
-    .services__container{
+    .resume__container{
       grid-template-columns:1fr;
     }
   }
   @media screen and (max-width:350px) {
-    .services__container{
+    .resume__container{
         padding-left: 1.875rem;
         padding-bottom: 1.875rem;
     }
